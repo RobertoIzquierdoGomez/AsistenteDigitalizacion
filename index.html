@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Asistente Digitalización</title>
+        <link rel="shortcut icon" href="/src/icon_bot.png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <style>
+            df-messenger {
+            --df-messenger-bot-message: #005F73;
+            --df-messenger-user-message: #CA6702;
+            --df-messenger-button-titlebar-color: #001219;
+            --df-messenger-button-titlebar-font-color: #fffffe;
+            --df-messenger-chat-background-color: #94D2BD;
+            --df-messenger-font-color: #fffffe;
+            --df-messenger-input-placeholder-font-color: #0f0e17;
+            --df-messenger-minimized-chat-close-icon-color: #ff8906;
+            --df-messenger-send-icon: #ff8906;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-sm">
+            <!--Cabecera-->
+            <header class="row text-center">
+                <h1 class="text-bg-primary p-3 m-0">Digitalización aplicada a los sectores productivos</h1>
+                <!-- Barra de navegación Superior-->
+                <nav class="navbar navbar-expand-lg bg-body-tertiary m-0">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page"  href="index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/app/doc.html" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-up-right"
+                                            viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5" />
+                                            <path fill-rule="evenodd"
+                                                d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0z" />
+                                        </svg>
+                                        Documentación
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://app.thepowermba.com/programs/67b74db65d684e0bc8bfe1a7" target="_blank">Material didáctico (ThePower)</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <!-- Contenido principal de la página -->
+            <main class="container text-center">
+            <!-- Primera parte en la que indica y avisa que se trata de un ejercicio -->
+                <div class="row">
+                    <div class=" rounded text-center p-3 border border-primary mt-3">
+                        <p>Ejercicio de práctica para la asignatura de <strong>Digitalización aplicada a los sectores productivos</strong>.</p>
+                        <p>Consiste en realizar un pequeño asistente. En este caso se desarrolla un pequeño frontal y el resto del esfuerzo se centra en hacer funcional el asistente.</p>
+                        <p>El asistente se enfocará en dar asistencia sobre la asignatura.</p>
+                    </div>
+                </div>
+                <!-- Apartado en el que se diseña para hacer explicación del frontal -->
+                <div class="row mt-3">
+                    <div class="col rounded text-center p-3 border border-primary me-1">
+                        <h3>Uso del asistente</h3>
+                        <p>El asistente está diseñado solo para está página. En el resto de páginas no está implementado.</p>
+                        <p>La práctica se centra en el uso del asistente, por lo que siéntete libre de usarlo. El resto de páginas están hechas a modo documentación por enriquecer un poco más el frontal.</p>
+                        <p>La temática consiste en el material subido en la plataforma de ThePower sobre la asignatura.</p>
+                    </div>
+                    <div class="col rounded text-center p-3 border border-primary ms-1">
+                        <h3>Documentación</h3>
+                        <p>La página de la documentación contiene la información sobre los distintos CDU diseñados. Esto puede servir como esquema visual y conocer cómo se ha diseñado el asistente.</p>
+                        <p>Sin embargo, lo divertido es averiguar sus capacidades hablando con él.</p>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col rounded text-center p-3 border border-primary me-1">
+                        <h3>Tecnología utilizada</h3>
+                        <p>El asistente se ha desarrollado con el software de Google gratuito llamado <strong><i>DialogFlow Essentials</i></strong>. El acceso a la herramienta puedes encontrarla en este <a href="https://dialogflow.cloud.google.com" target="_blank" class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">enlace</a>.</p>
+                        <p>Se utiliza esta herramienta por usar una alternativa a lo visto en clase y por estar más familizarizado con ella. Sin embargo he tenido que aprender a desarrollar con ella puesto que es distinta a la de pago de DialogFlow CX y está más limitada.</p>
+                    </div>
+                </div>
+            </main>
+            
+            <!-- Pie de página -->
+            <footer class="container-sm text-bg-primary text-center p-1 pt-3 mt-5"><p>Realizado por Roberto Izquierdo Gomez</p></footer>
+            <!-- Inserción del asistente -->
+            <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+            <df-messenger class="fixed-top"
+                chat-icon="/src/icon_bot.png"
+                chat-title="Asistente"
+                agent-id="24084d21-2d1b-48cf-9761-ac68a23c553a"
+                language-code="es"
+                intent = "WELCOME"
+                wait-open = true
+            ></df-messenger>
+    </div>
+    </body>
+</html>
